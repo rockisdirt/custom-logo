@@ -7,8 +7,8 @@ let logoColor;
 let dvd = {
     x: 200,
     y: 300,
-    xspeed: 10,
-    yspeed: 10,
+    xspeed: 5,
+    yspeed: 5,
     img: new Image()
 };
 
@@ -28,7 +28,7 @@ let dvd = {
 function update() {
     setTimeout(() => {
         //Draw the canvas background
-        ctx.fillStyle = '#100';
+        ctx.fillStyle = '#A9A9A9';
         ctx.fillRect(0, 0, canvas.width, canvas.height);
         //Draw DVD Logo and his background
         ctx.fillStyle = logoColor;
