@@ -1,4 +1,4 @@
-let speed = 20;
+let speed = 10;
 let scale = 0.17; // Image scale (I work on 1080p monitor)
 let canvas;
 let ctx;
@@ -28,7 +28,7 @@ let dvd = {
 function update() {
     setTimeout(() => {
         //Draw the canvas background
-        ctx.fillStyle = '#000';
+        ctx.fillStyle = '#100';
         ctx.fillRect(0, 0, canvas.width, canvas.height);
         //Draw DVD Logo and his background
         ctx.fillStyle = logoColor;
